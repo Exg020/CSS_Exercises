@@ -1,0 +1,29 @@
+div.product {
+  background: black;
+}
+
+.product {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.deal {
+  position: absolute;
+  left: 100px;
+  top: 350px;
+  z-index: -1;
+  padding: 0;
+  color: #e4e5e2;
+  z-index: 500;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.item {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: -1;
+}
